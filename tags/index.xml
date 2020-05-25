@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 May 2019 01:18:04 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 21:45:37 +0530</lastBuildDate>
     
 	<atom:link href="https://tejasMadrewar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://tejasMadrewar.github.io/tags/arduino/</link>
+      <pubDate>Mon, 25 May 2020 21:45:37 +0530</pubDate>
+      
+      <guid>https://tejasMadrewar.github.io/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bootloader</title>
+      <link>https://tejasMadrewar.github.io/tags/bootloader/</link>
+      <pubDate>Mon, 25 May 2020 21:45:37 +0530</pubDate>
+      
+      <guid>https://tejasMadrewar.github.io/tags/bootloader/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cpp</title>

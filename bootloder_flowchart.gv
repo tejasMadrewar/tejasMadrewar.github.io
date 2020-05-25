@@ -1,0 +1,13 @@
+digraph {
+	"Check reset type" -> "If internal reset";
+	"If internal reset" -> "User program";
+	"Check reset type" -> "If external reset";
+	"If external reset" -> "Set WatchDog interrrupt for 1 sec";
+	"Set WatchDog interrrupt for 1 sec" -> "Set serial pins for serial communication";
+	"Set serial pins for serial communication" -> "Flash LED";
+	"Flash LED" -> "wait for valid STK500 commands";
+	"wait for valid STK500 commands" -> "Trigger Reset"[label="WatchDog Timer interrupt",weight="WatchDog Timer interrupt"];
+	"Trigger Reset" -> "Check reset type";
+	"wait for valid STK500 commands" -> "Execute STK500 Commands";
+	"Execute STK500 Commands" -> "wait for valid STK500 commands";
+}

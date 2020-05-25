@@ -6,10 +6,21 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 May 2019 01:18:04 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 21:45:37 +0530</lastBuildDate>
     
 	<atom:link href="https://tejasMadrewar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arduino Bootloader</title>
+      <link>https://tejasMadrewar.github.io/posts/arduino_bootloader/</link>
+      <pubDate>Mon, 25 May 2020 21:45:37 +0530</pubDate>
+      
+      <guid>https://tejasMadrewar.github.io/posts/arduino_bootloader/</guid>
+      <description>Introduction This article is going to explain what happens behind the scene when the upload button is pressed in Arduino IDE.
+Arduino Bootloader For programming Arduino require only PC, serial connector, no other special programmer is required. This is possible because of a small program called a bootloader. It will help to program microcontrollers without any external programmer.
+Bootloader requires some space in program memory due to which available memory for the program gets reduced.</description>
+    </item>
     
     <item>
       <title>OpenCV3 C&#43;&#43; Quick Setup</title>
