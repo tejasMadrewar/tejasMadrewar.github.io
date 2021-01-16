@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog</title>
-    <link>https://tejasMadrewar.github.io/</link>
-    <description>Recent content on Blog</description>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 25 May 2020 21:45:37 +0530</lastBuildDate>
-    
-	<atom:link href="https://tejasMadrewar.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 25 May 2020 21:45:37 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino Bootloader</title>
-      <link>https://tejasMadrewar.github.io/posts/arduino_bootloader/</link>
+      <link>/posts/arduino_bootloader/</link>
       <pubDate>Mon, 25 May 2020 21:45:37 +0530</pubDate>
       
-      <guid>https://tejasMadrewar.github.io/posts/arduino_bootloader/</guid>
+      <guid>/posts/arduino_bootloader/</guid>
       <description>Introduction This article is going to explain what happens behind the scene when the upload button is pressed in Arduino IDE.
 Arduino Bootloader For programming Arduino require only PC, serial connector, no other special programmer is required. This is possible because of a small program called a bootloader. It will help to program microcontrollers without any external programmer.
 Bootloader requires some space in program memory due to which available memory for the program gets reduced.</description>
@@ -24,10 +19,10 @@ Bootloader requires some space in program memory due to which available memory f
     
     <item>
       <title>OpenCV3 C&#43;&#43; Quick Setup</title>
-      <link>https://tejasMadrewar.github.io/posts/opencv_quick_start/</link>
-      <pubDate>Sun, 05 May 2019 01:18:04 +0530</pubDate>
+      <link>/posts/opencv_quick_start/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tejasMadrewar.github.io/posts/opencv_quick_start/</guid>
+      <guid>/posts/opencv_quick_start/</guid>
       <description>Introduction This is quick setup for setting up OpenCV3 64 bit version on Windows system for C++.
 I tested this setup for OpenCV3 on Windows 10 64 bit with Visual Studio 2017 Community edition. It can also work on other Visual Studio editions.
 This setup includes debug and release build for 64 bit only. You will be able to make new OpenCV3 C++ project with one click instead of configuring new project each time with this setup.</description>
@@ -35,10 +30,10 @@ This setup includes debug and release build for 64 bit only. You will be able to
     
     <item>
       <title>About</title>
-      <link>https://tejasMadrewar.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tejasMadrewar.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>Tejas Madrewar is Mechatronics Engineer. He is interested in electronic and programming. He like to tinker with various technologies. He is interested in solving the engineering problems using interdisciplinary approach. In his free time he like to read books.</description>
     </item>
     

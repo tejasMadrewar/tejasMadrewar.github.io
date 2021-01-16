@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
     
     
 
@@ -8,16 +8,15 @@
     <link href="https://gmpg.org/xfn/11" rel="profile">
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.79.0" />
 
     
     
     
 
-<title>Arduino Bootloader • Blog</title>
+<title>Arduino Bootloader • </title>
 
 
 <meta name="twitter:card" content="summary"/>
@@ -31,9 +30,9 @@ Bootloader requires some space in program memory due to which available memory f
 Arduino Bootloader For programming Arduino require only PC, serial connector, no other special programmer is required. This is possible because of a small program called a bootloader. It will help to program microcontrollers without any external programmer.
 Bootloader requires some space in program memory due to which available memory for the program gets reduced." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tejasMadrewar.github.io/posts/arduino_bootloader/" />
-<meta property="article:published_time" content="2020-05-25T21:45:37&#43;05:30"/>
-<meta property="article:modified_time" content="2020-05-25T21:45:37&#43;05:30"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="/posts/arduino_bootloader/" />
+<meta property="article:published_time" content="2020-05-25T21:45:37+05:30" />
+<meta property="article:modified_time" content="2020-05-25T21:45:37+05:30" /><meta property="og:site_name" content="this is auther title" />
 
 
     
@@ -45,15 +44,10 @@ Bootloader requires some space in program memory due to which available memory f
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.6a83d62c39a364f036df4db1ecd564645635d6c7fc182425cb501218fec485f5.css" integrity="sha256-aoPWLDmjZPA2302x7NVkZFY11sf8GCQly1ASGP7EhfU=">
+<link rel="stylesheet" href="/scss/hyde-hyde.71157e768c4e111a23c3531b95e0cbb59bbef3c9e6901d36247cb53d6b6be258.css" integrity="sha256-cRV&#43;doxOERojw1MbleDLtZu&#43;88nmkB02JHy1PWtr4lg=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
-
-
-
-
-<link rel="stylesheet" href="/scss/hugo-toc.8549a64d301421b4256ea9a0d5ca8b99178799f569d5d2daeb95f24cef3ce6b7.css" integrity="sha256-hUmmTTAUIbQlbqmg1cqLmReHmfVp1dLa65XyTO885rc=">
 
 
 
@@ -66,6 +60,8 @@ Bootloader requires some space in program memory due to which available memory f
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
     
+    
+
 </head>
 
 
@@ -75,14 +71,18 @@ Bootloader requires some space in program memory due to which available memory f
   <div class="container ">
     <div class="sidebar-about">
       <span class="site__title">
-        <a href="https://tejasMadrewar.github.io/">Blog</a>
+        <a href="">
+        
+          
+        
+        </a>
       </span>
       
         
         
         
         <div class="author-image">
-          <img src="https://tejasMadrewar.github.io/img/tejas.png" alt="Author Image" class="img--circle img--headshot element--center">
+          <img src="img/tejas.png" alt="Author Image" class="img--circle img--headshot element--center">
         </div>
         
       
@@ -93,7 +93,7 @@ Bootloader requires some space in program memory due to which available memory f
     </div>
     <div class="collapsible-menu">
       <input type="checkbox" id="menuToggle">
-      <label for="menuToggle">Blog</label>
+      <label for="menuToggle"></label>
       <div class="menu-content">
         <div>
 	<ul class="sidebar-nav">
@@ -123,13 +123,13 @@ Bootloader requires some space in program memory due to which available memory f
 				</li>
 			 
 		
-		</li>
 	</ul>
 </div>
 
         <section class="social">
 	
 	<a href="https://twitter.com/@distinct_panda" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
 	
 	
 	
@@ -150,22 +150,23 @@ Bootloader requires some space in program memory due to which available memory f
 	
 	
 	
+	
+	
+	
+	
+	
 </section>
 
       </div>
     </div>
     
 <div class="copyright">
-  &copy; 2020 Tejas Madrewar
+  &copy; 2021 Tejas Madrewar
   
     <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
   
 </div>
 
-
-<div class="builtwith">
-Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
-</div>
 
 
   </div>
@@ -209,107 +210,64 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
   </header>
   
   
-  
-    <div class="toc-wrapper">
-      <input type="checkbox" id="tocToggle">
-      <label for="tocToggle">Table of Content</label>
-      
-          <nav id="TableOfContents">
-<ul>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#arduino-bootloader">Arduino Bootloader</a></li>
-<li><a href="#how-do-bootloader-works">How do bootloader works?</a></li>
-<li><a href="#how-arduino-is-programmed">How Arduino is programmed?</a>
-<ul>
-<li><a href="#compile">COMPILE</a></li>
-<li><a href="#upload">UPLOAD</a></li>
-</ul></li>
-<li><a href="#reference">Reference</a></li>
-</ul>
-</nav>
-      
-    </div>
-  
-  
   <div class="post">
-    
-
-<h1 id="introduction">Introduction</h1>
-
+    <h1 id="introduction">Introduction</h1>
 <p>This article is going to explain what happens behind the scene when the upload button is pressed in Arduino IDE.</p>
-
 <h1 id="arduino-bootloader">Arduino Bootloader</h1>
-
 <p>For programming Arduino require only PC, serial connector, no other special programmer is required. This is possible because of a small program called a bootloader. It will help to program microcontrollers without any external programmer.</p>
-
 <p>Bootloader requires some space in program memory due to which available memory for the program gets reduced.</p>
-
 <p>Bootloader makes Arduino programming easy as no external programmer is required to program.</p>
-
 <p>Arduino uses an optimized version of the <a href="https://github.com/Optiboot">optiboot</a> to reduce bootloader size.</p>
-
 <p>Optiboot only implements the following instruction of <a href="http://www.atmel.com/Images/doc2525.pdf">STK500 protocol</a> to save space.</p>
-
 <ul>
-<li>STK_LOAD_ADDRESS   -&gt;  load address</li>
-<li>STK_PROG_PAGE      -&gt;  Write one page</li>
-<li>STK_READ_PAGE      -&gt;  Read one page</li>
-<li>STK_READ_SIGN      -&gt;  Reads compiled-in signature.</li>
-<li>STK_LEAVE_PROGMODE     -&gt;  Exit program mode</li>
-<li>STK_GET_PARAMETER      -&gt;  Read version</li>
-<li>STK_UNIVERSAL      -&gt;  Not implemented returns success</li>
-<li>STK_SET_DEVICE     -&gt;  Not implemented returns success</li>
-<li>STK_SET_DEVICE_EXT     -&gt;  Not implemented returns success</li>
+<li>STK_LOAD_ADDRESS 	 -&gt;  load address</li>
+<li>STK_PROG_PAGE   	 -&gt;  Write one page</li>
+<li>STK_READ_PAGE   	 -&gt;  Read one page</li>
+<li>STK_READ_SIGN   	 -&gt;  Reads compiled-in signature.</li>
+<li>STK_LEAVE_PROGMODE 	 -&gt;  Exit program mode</li>
+<li>STK_GET_PARAMETER 	 -&gt;  Read version</li>
+<li>STK_UNIVERSAL   	 -&gt;  Not implemented returns success</li>
+<li>STK_SET_DEVICE   	 -&gt;  Not implemented returns success</li>
+<li>STK_SET_DEVICE_EXT 	 -&gt;  Not implemented returns success</li>
 </ul>
-
 <h1 id="how-do-bootloader-works">How do bootloader works?</h1>
-
 <p>When Arduino powered on the program first goes to reset vector at 0x0000 address then jumps to bootloader.</p>
-
 <p>We can see the detailed flow in official avr-core <a href="https://github.com/Arduino/arduinocore-avr/blob/master/bootloaders/optiboot/optiboot.c">optiboot.c</a></p>
-
 <p>This is possible because AVR supports the <em>self-programming mechanism (SPM)</em>.</p>
-
-<p><img src="/bootloader_flowchart.svg" alt="Bootloaderflow chart" />
-<center><strong>Fig. Bootloader working flowchart</strong></center></p>
-
+<p><img src="/bootloader_flowchart.svg" alt="Bootloaderflow chart"></p>
+<!-- raw HTML omitted -->
 <h1 id="how-arduino-is-programmed">How Arduino is programmed?</h1>
-
 <p>Programming Arduino can be divided into two parts to compile the sketch and upload binary.</p>
-
-<h2 id="compile">COMPILE</h2>
-
 <p>Arduino sketch compiles to a binary file using avr-gcc.</p>
-
-<h2 id="upload">UPLOAD</h2>
-
 <p>Binary is uploaded by using AVRdude. AVRdude uses the STK500 protocol to communicate to the AVR microcontroller</p>
-
 <p>AVRdude follows the following steps:</p>
-
 <ol>
-<li><p>Convert binary file to hex using avrdude</p></li>
-
-<li><p>Reset Arduino by lowering DTR pin to unload capacitor</p></li>
-
-<li><p>Arduino will enter the bootloader</p></li>
-
-<li><p>Write a program to program memory using STK500 protocol page by page</p>
-
+<li>
+<p>Convert binary file to hex using avrdude</p>
+</li>
+<li>
+<p>Reset Arduino by lowering DTR pin to unload capacitor</p>
+</li>
+<li>
+<p>Arduino will enter the bootloader</p>
+</li>
+<li>
+<p>Write a program to program memory using STK500 protocol page by page</p>
 <ul>
 <li>Write program to RAM in one page size (for Atmega328 one page size -&gt; 64 word)</li>
 <li>Erase one-page flash memory</li>
 <li>Fill flash memory page with hex bytes from RAM</li>
 <li>Repeat steps to write all program</li>
-</ul></li>
-
-<li><p>Program memory is verified by reading the flash page by page</p></li>
-
-<li><p>Exit program mode using STK500 protocol</p></li>
+</ul>
+</li>
+<li>
+<p>Program memory is verified by reading the flash page by page</p>
+</li>
+<li>
+<p>Exit program mode using STK500 protocol</p>
+</li>
 </ol>
-
 <h1 id="reference">Reference</h1>
-
 <p><a href="https://github.com/Optiboot/optiboot/wiki/HowOptibootWorks">https://github.com/Optiboot/optiboot/wiki/HowOptibootWorks</a>
 <a href="https://www.electronicwings.com/arduino/basics-to-developing-bootloader-for-arduino">https://www.electronicwings.com/arduino/basics-to-developing-bootloader-for-arduino</a></p>
 
@@ -354,10 +312,7 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
-<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
-
-
-
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
 
 
 

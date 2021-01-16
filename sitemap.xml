@@ -1,78 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tejasMadrewar.github.io/posts/arduino_bootloader/</loc>
+    <loc>/</loc>
     <lastmod>2020-05-25T21:45:37+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://tejasMadrewar.github.io/posts/opencv_quick_start/</loc>
-    <lastmod>2019-05-05T01:18:04+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tejasMadrewar.github.io/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tejasMadrewar.github.io/tags/arduino/</loc>
+    <loc>/tags/arduino/</loc>
     <lastmod>2020-05-25T21:45:37+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tejasMadrewar.github.io/</loc>
+    <loc>/posts/arduino_bootloader/</loc>
     <lastmod>2020-05-25T21:45:37+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tejasMadrewar.github.io/tags/bootloader/</loc>
+    <loc>/tags/bootloader/</loc>
     <lastmod>2020-05-25T21:45:37+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tejasMadrewar.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tejasMadrewar.github.io/tags/cpp/</loc>
-    <lastmod>2019-05-05T01:18:04+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tejasMadrewar.github.io/tags/cv3/</loc>
-    <lastmod>2019-05-05T01:18:04+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tejasMadrewar.github.io/tags/opencv/</loc>
-    <lastmod>2019-05-05T01:18:04+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tejasMadrewar.github.io/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-05-25T21:45:37+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tejasMadrewar.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-05-25T21:45:37+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tejasMadrewar.github.io/tags/visual-studio/</loc>
-    <lastmod>2019-05-05T01:18:04+05:30</lastmod>
-    <priority>0</priority>
+    <loc>/tags/cpp/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cv3/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opencv/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/opencv_quick_start/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/visual-studio/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

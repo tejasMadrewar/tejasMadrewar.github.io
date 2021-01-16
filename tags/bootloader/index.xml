@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bootloader on Blog</title>
-    <link>https://tejasMadrewar.github.io/tags/bootloader/</link>
-    <description>Recent content in Bootloader on Blog</description>
+    <title>bootloader on </title>
+    <link>/tags/bootloader/</link>
+    <description>Recent content in bootloader on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 25 May 2020 21:45:37 +0530</lastBuildDate>
-    
-	<atom:link href="https://tejasMadrewar.github.io/tags/bootloader/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 25 May 2020 21:45:37 +0530</lastBuildDate><atom:link href="/tags/bootloader/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arduino Bootloader</title>
-      <link>https://tejasMadrewar.github.io/posts/arduino_bootloader/</link>
+      <link>/posts/arduino_bootloader/</link>
       <pubDate>Mon, 25 May 2020 21:45:37 +0530</pubDate>
       
-      <guid>https://tejasMadrewar.github.io/posts/arduino_bootloader/</guid>
+      <guid>/posts/arduino_bootloader/</guid>
       <description>Introduction This article is going to explain what happens behind the scene when the upload button is pressed in Arduino IDE.
 Arduino Bootloader For programming Arduino require only PC, serial connector, no other special programmer is required. This is possible because of a small program called a bootloader. It will help to program microcontrollers without any external programmer.
 Bootloader requires some space in program memory due to which available memory for the program gets reduced.</description>
