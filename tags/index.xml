@@ -5,7 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 May 2020 21:45:37 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 13:15:42 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cpp</title>
+      <link>/tags/cpp/</link>
+      <pubDate>Tue, 26 Jan 2021 13:15:42 +0530</pubDate>
+      
+      <guid>/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cpp11</title>
+      <link>/tags/cpp11/</link>
+      <pubDate>Tue, 26 Jan 2021 13:15:42 +0530</pubDate>
+      
+      <guid>/tags/cpp11/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>arduino</title>
       <link>/tags/arduino/</link>
@@ -21,15 +39,6 @@
       <pubDate>Mon, 25 May 2020 21:45:37 +0530</pubDate>
       
       <guid>/tags/bootloader/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cpp</title>
-      <link>/tags/cpp/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cpp/</guid>
       <description></description>
     </item>
     

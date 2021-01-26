@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cpp on </title>
-    <link>/tags/cpp/</link>
-    <description>Recent content in cpp on </description>
+    <title>cpp11 on </title>
+    <link>/tags/cpp11/</link>
+    <description>Recent content in cpp11 on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Jan 2021 13:15:42 +0530</lastBuildDate><atom:link href="/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 13:15:42 +0530</lastBuildDate><atom:link href="/tags/cpp11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Useful C&#43;&#43;11 features</title>
       <link>/posts/useful_cpp11_features/</link>
@@ -16,17 +16,6 @@
  auto range based for loop lambda trailing return type decltype override final  auto At the compile-time type of variable is deduced from the initializer. There is no need to declare the type of variable.
 In following example vector&amp;lt;int&amp;gt;::iterator is replaced with auto.
 #include &amp;lt;iostream&amp;gt;#include &amp;lt;vector&amp;gt;using namespace std; double add(int a, int b) { double c = a + b; return c; } int main() { vector&amp;lt;int&amp;gt; vec = {1, 2, 3, 4, 5}; auto a = 1; // type of a is int  auto b = 1.</description>
-    </item>
-    
-    <item>
-      <title>OpenCV3 C&#43;&#43; Quick Setup</title>
-      <link>/posts/opencv_quick_start/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/opencv_quick_start/</guid>
-      <description>Introduction This is quick setup for setting up OpenCV3 64 bit version on Windows system for C++.
-I tested this setup for OpenCV3 on Windows 10 64 bit with Visual Studio 2017 Community edition. It can also work on other Visual Studio editions.
-This setup includes debug and release build for 64 bit only. You will be able to make new OpenCV3 C++ project with one click instead of configuring new project each time with this setup.</description>
     </item>
     
   </channel>
